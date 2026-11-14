@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Steven Wicaksono — Full Stack Web Developer</title>
+    <meta name="description" id="page-description" content="Portofolio Steven Andrian Pranata Wicaksono, lulusan S1 Informatika dengan minat Full Stack Web Development dan Machine Learning." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&family=Caveat:wght@500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HERO -->
+    <header class="hero" id="home">
+      <nav aria-label="Navigasi utama" data-i18n-aria="nav.mainLabel">
+        <div class="nav-links">
+          <a href="#tentang" data-i18n="nav.about">Tentang</a>
+          <a href="#proyek" data-i18n="nav.projects">Proyek</a>
+          <a href="#tulisan" data-i18n="nav.writing">Tulisan</a>
+          <a href="#kontak" data-i18n="nav.contact">Kontak</a>
+        </div>
+        <div class="language-switch" role="group" aria-label="Pilih bahasa" data-i18n-aria="language.label">
+          <button type="button" data-language="id" aria-pressed="true">ID</button>
+          <button type="button" data-language="en" aria-pressed="false">EN</button>
+        </div>
+      </nav>
+
+      <div class="hero-photo">
+        <!-- foto.jpg: foto Steven yang sudah diolah hitam-putih bernuansa hangat -->
+        <img src="media/foto.jpg" alt="Steven Andrian Pranata Wicaksono" onerror="this.style.display = 'none'" />
+      </div>
+      <div id="pixels"></div>
+      <span class="tag t1">web developer</span>
+      <span class="tag t2">data &amp; ml</span>
+      <span class="tag t3" data-i18n="hero.tagProblem">pemecah masalah</span>
+
+      <div class="hero-in">
+        <h1 aria-label="Steven Andrian Pranata Wicaksono">
+          <span class="typing-part" aria-hidden="true">Steven</span><br /><span class="typing-part" aria-hidden="true">Andrian Pranata</span><br class="hero-mobile-break" />
+          <span class="typing-part typing-part--last" aria-hidden="true">wicaksono</span>
+        </h1>
+        <div class="hero-side">
+          <span data-i18n="hero.summary">Full Stack Web Developer dengan minat pada machine learning. Membangun aplikasi web dari basis data sampai antarmuka, dan sistem berbasis data yang berguna.</span>
+          <br /><a class="btn" href="#layanan" data-i18n="hero.more">Lihat selengkapnya ↗</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- INTRO -->
+      <section class="intro" id="tentang">
+        <div class="intro-in rv">
+          <span class="chip" data-i18n="about.hello">Halo, saya Steven</span>
+          <p data-i18n="about.first">
+            Saya Steven, lulusan <b>S1 Informatika</b> dari <span class="hl">Universitas Mercu Buana Yogyakarta</span> yang memiliki minat kuat dalam <b>pengembangan web full stack</b> dan <b>machine learning</b>.
+          </p>
+          <p data-i18n="about.second">
+            Saya berpengalaman mengembangkan aplikasi web menggunakan <b>HTML, CSS, JavaScript, PHP, dan Laravel</b>. Saya juga memahami pengembangan sistem berbasis data dengan <b>Python</b> dan <b>machine learning</b>, serta mengenal
+            teknologi <b>AI</b> dan pengelolaan basis data.
+          </p>
+          <p data-i18n="about.third">
+            Saya senang belajar melalui praktik dan terus mengembangkan kemampuan lewat proyek akademik maupun proyek nyata. Saya bersemangat membuat sistem yang <span class="ul">fungsional, efisien, dan mudah digunakan</span>, sambil terus
+            mempelajari teknologi baru dan mengasah kemampuan pemecahan masalah.
+          </p>
+          <div class="facts">
+            <span data-i18n="about.degree">S1 Informatika · UMBY 2026</span>
+            <span data-i18n="about.gpa">IPK 3,65 / 4,00</span>
+            <span data-i18n="about.location">Sleman, Yogyakarta</span>
+            <a
+              class="intro-download"
+              href="media/serti/LAMARAN_KERJA_STEVEN_ANDRIAN_PRANATA_WICAKSONO.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 3v12m0 0 4-4m-4 4-4-4M5 17v3h14v-3" />
+              </svg>
+              <span data-i18n="about.download">Unduh CV</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- LAYANAN -->
+      <section class="what" id="layanan">
+        <h2 class="rv" data-i18n="services.heading">Beberapa <span class="circ">hal yang saya kerjakan</span></h2>
+        <div class="cards">
+          <article class="card c1 rv">
+            <div class="k"><span>01 · WEB</span><span>■</span></div>
+            <h3 data-i18n="services.webTitle">Aplikasi web full stack.</h3>
+            <p data-i18n="services.webDescription">Dari perancangan basis data, back end, sampai tampilan antarmuka.</p>
+            <ul>
+              <li>HTML, CSS, JavaScript</li>
+              <li>PHP, Laravel, MySQL</li>
+              <li>Bootstrap, Sass, jQuery</li>
+            </ul>
+            <a class="go" href="#proyek" data-i18n="services.viewProjects">Lihat proyek →</a>
+          </article>
+
+          <article class="card c2 rv">
+            <div class="k"><span>02 · DATA &amp; ML</span><span>■</span></div>
+            <h3 data-i18n="services.dataTitle">Data jadi keputusan.</h3>
+            <p data-i18n="services.dataDescription">Analisis data dan model prediksi untuk kasus nyata.</p>
+            <ul>
+              <li>Python, Data Analysis</li>
+              <li>Random Forest, GridSearchCV</li>
+              <li data-i18n="services.decisionSupport">Sistem Pendukung Keputusan</li>
+            </ul>
+            <a class="go" href="#proyek" data-i18n="services.viewProjects">Lihat proyek →</a>
+          </article>
+
+          <article class="card c3 rv">
+            <div class="k"><span data-i18n="services.coordinationLabel">03 · KOORDINASI</span><span>■</span></div>
+            <h3 data-i18n="services.coordinationTitle">Proyek berjalan sesuai rencana.</h3>
+            <p data-i18n="services.coordinationDescription">Mengawasi, mengarahkan, dan berkomunikasi dengan pihak terkait.</p>
+            <ul>
+              <li data-i18n="services.supervision">Pengawasan pekerjaan</li>
+              <li data-i18n="services.teamCoordination">Koordinasi tim</li>
+              <li data-i18n="services.timeManagement">Manajemen waktu</li>
+            </ul>
+            <a class="go" href="#proyek" data-i18n="services.viewExperience">Lihat pengalaman →</a>
+          </article>
+        </div>
+
+        <p class="statement rv" data-i18n="services.statement">
+          Sistem yang baik tidak terjadi begitu saja. Ia dibangun lewat <em>berpikir jernih, analisis yang kuat,</em> dan <em>eksekusi yang rapi</em>. Dari merancang basis data hingga menyajikan antarmuka, saya ingin membuat sesuatu yang
+          terasa tepat guna dan siap dipakai. <br /><a class="btn" href="#kontak">Ayo ngobrol →</a>
+        </p>
+      </section>
+
+      <!-- PROYEK -->
+      <section class="work" id="proyek">
+        <div class="work-heading">
+          <div class="work-heading-copy">
+            <span class="work-kicker"><span data-i18n="projects.kicker">PORTOFOLIO</span> <span aria-hidden="true">/</span> 2025—2026</span>
+            <h2 class="work-title rv" data-typewriter aria-label="Proyek &amp; pengalaman">
+              <span class="typewriter-text" data-i18n="projects.heading" aria-hidden="true">Proyek &amp; pengalaman</span>
+              <span class="typewriter-reserve" aria-hidden="true">Proyek &amp; pengalaman</span>
+            </h2>
+          </div>
+          <div class="work-controls" role="group" aria-label="Filter proyek dan pengalaman" data-i18n-aria="projects.filtersLabel">
+            <button type="button" class="project-filter" data-project-filter="all" aria-pressed="true">
+              <span data-i18n="projects.filterAll">Semua</span><span class="filter-count" data-filter-count="all">0</span>
+            </button>
+            <button type="button" class="project-filter" data-project-filter="project" aria-pressed="false">
+              <span data-i18n="projects.filterProjects">Proyek</span><span class="filter-count" data-filter-count="project">0</span>
+            </button>
+            <button type="button" class="project-filter" data-project-filter="experience" aria-pressed="false">
+              <span data-i18n="projects.filterExperience">Pengalaman</span><span class="filter-count" data-filter-count="experience">0</span>
+            </button>
+          </div>
+        </div>
+        <div class="work-grid" data-project-grid>
+          <article class="project-card" data-project-card data-category="project">
+            <div class="project-card-top">
+              <span class="project-number">01</span>
+              <span class="project-kind" data-i18n="projects.projectLabel">PROYEK</span>
+            </div>
+            <div class="project-card-copy">
+              <h3 data-i18n="projects.ricePredictionTitle">Prediksi Produksi Padi Nasional</h3>
+              <small data-i18n="projects.thesisLabel">skripsi · machine learning</small>
+              <p data-i18n="projects.ricePredictionDescription">Sistem prediksi produksi padi nasional memakai Random Forest dan GridSearchCV berdasarkan data iklim dan pertanian.</p>
+            </div>
+            <div class="stackrow"><span>Python</span><span>Random Forest</span><span>GridSearchCV</span></div>
+          </article>
+
+          <article class="project-card" data-project-card data-category="project">
+            <div class="project-card-top">
+              <span class="project-number">02</span>
+              <span class="project-kind" data-i18n="projects.projectLabel">PROYEK</span>
+            </div>
+            <div class="project-card-copy">
+              <h3 data-i18n="projects.riceDecisionTitle">SPK Penyakit Tanaman Padi</h3>
+              <small data-i18n="projects.decisionLabel">sistem penunjang keputusan · web</small>
+              <p data-i18n="projects.riceDecisionDescription">Sistem berbasis web untuk membantu identifikasi dan pengambilan keputusan terkait penyakit pada tanaman padi.</p>
+            </div>
+            <div class="stackrow"><span>Web</span><span data-i18n="projects.dssStack">SPK</span></div>
+          </article>
+
+          <article class="project-card" data-project-card data-category="project">
+            <div class="project-card-top">
+              <span class="project-number">03</span>
+              <span class="project-kind" data-i18n="projects.projectLabel">PROYEK</span>
+            </div>
+            <div class="project-card-copy">
+              <h3 data-i18n="projects.printingTitle">Web Jasa Sablon</h3>
+              <small data-i18n="projects.wordpressLabel">wordpress · web</small>
+              <p data-i18n="projects.printingDescription">Aplikasi web layanan jasa sablon dengan manajemen pesanan dan tampilan katalog layanan bagi pelanggan.</p>
+            </div>
+            <div class="stackrow"><span>WordPress</span><span data-i18n="projects.catalogStack">Katalog</span><span data-i18n="projects.ordersStack">Pesanan</span></div>
+          </article>
+
+          <article class="project-card" data-project-card data-category="experience">
+            <div class="project-card-top">
+              <span class="project-number">04</span>
+              <span class="project-kind" data-i18n="projects.experienceLabel">PENGALAMAN</span>
+            </div>
+            <div class="project-card-copy">
+              <h3 data-i18n="projects.bootcampTitle">Bootcamp GameLab</h3>
+              <small data-i18n="projects.bootcampLabel">full stack web development · apr–jul 2025</small>
+              <p data-i18n="projects.bootcampDescription">Praktik front end dan back end, dari perancangan, pengelolaan database, sampai deployment dengan Laravel, Slim, Medoo, dan Twig.</p>
+            </div>
+            <div class="stackrow"><span>Laravel</span><span>PHP</span><span>MySQL</span><span>Sass</span></div>
+          </article>
+
+          <a class="project-card project-card--linked" data-project-card data-category="experience" href="hal1pieng.html">
+            <div class="project-card-top">
+              <span class="project-number">05</span>
+              <span class="project-kind" data-i18n="projects.experienceLabel">PENGALAMAN</span>
+            </div>
+            <div class="project-card-copy">
+              <h3 data-i18n="projects.photoboothTitle">Photobooth PIENG Kafe Toleransi</h3>
+              <small data-i18n="projects.freelanceLabel">freelance · apr–mei 2026</small>
+              <p data-i18n="projects.photoboothDescription">Mengawasi dan mengoordinasikan pengerjaan proyek photobooth serta berkomunikasi dengan pihak terkait agar kebutuhan terpenuhi.</p>
+            </div>
+            <div class="stackrow"><span data-i18n="projects.coordinationStack">Koordinasi</span><span data-i18n="projects.supervisionStack">Pengawasan</span></div>
+            <div class="project-card-action"><span data-i18n="projects.photoboothDetail">Lihat detail pengalaman</span><span aria-hidden="true">↗</span></div>
+          </a>
+
+        </div>
+        <div class="work-more">
+          <button type="button" class="project-more" data-projects-more hidden>
+            <span data-i18n="projects.showMore">Lihat lainnya</span>
+            <span class="filter-count" data-projects-remaining></span>
+            <span aria-hidden="true">↓</span>
+          </button>
+        </div>
+        <div class="work-cta">
+          <div>
+            <h4 data-i18n="projects.ctaTitle">Mari untuk mengobrol.</h4>
+            <small data-i18n="projects.openToWork">saya sangat terbuka dengan siapapun</small>
+          </div>
+          <a class="btn" href="#kontak" data-i18n="projects.contactMe">Hubungi saya →</a>
+        </div>
+      </section>
+
+      <!-- TULISAN -->
+      <section class="writing" id="tulisan">
+        <div class="section-divider" aria-hidden="true"></div>
+        <h2 class="work-title rv" data-typewriter aria-label="Tulisan">
+          <span class="typewriter-text" data-i18n="writing.heading" aria-hidden="true">Tulisan</span>
+          <span class="typewriter-reserve" aria-hidden="true">Tulisan</span>
+        </h2>
+        <div class="writing-carousel" data-writing-carousel role="region" aria-roledescription="carousel" aria-label="Karusel tulisan Medium" data-i18n-aria="writing.carouselLabel">
+          <div class="writing-viewport">
+            <div class="writing-track">
+              <article class="writing-card" data-writing-slide role="group" aria-roledescription="slide" aria-label="Tulisan 1 dari 2" aria-hidden="false" data-i18n-aria="writing.slideOne">
+                <div class="writing-mark writing-mark--start" aria-hidden="true">
+                  <svg viewBox="0 0 64 64" focusable="false">
+                    <path d="M10 49V15h10l12 22 12-22h10v34h-8V29L34 48h-4L18 29v20z" fill="currentColor" />
+                    <circle cx="49" cy="8" r="2" fill="currentColor" />
+                    <circle cx="56" cy="12" r="2" fill="currentColor" />
+                    <circle cx="49" cy="16" r="2" fill="currentColor" />
+                  </svg>
+                </div>
+                <div class="writing-copy">
+                  <small data-i18n="writing.articleLabel">Artikel · Medium</small>
+                  <h3>Ketika Terlalu Banyak Berpikir Membuat Sulit Untuk Memulai</h3>
+                  <p class="writing-summary" data-i18n="writing.articleOneSummary">
+                    Tentang analysis paralysis dan kebiasaan menunda karena terlalu banyak rencana—serta belajar memulai dari satu langkah kecil tanpa menunggu semuanya sempurna.
+                  </p>
+                  <a class="writing-link" href="https://medium.com/@stevennn17/ketika-terlalu-banyak-berpikir-membuat-saya-sulit-untuk-memulai-420fe18b2f9d" target="_blank" rel="noopener noreferrer" data-i18n="writing.read"
+                    >Baca artikel di Medium</a
+                  >
+                </div>
+              </article>
+              <article class="writing-card" data-writing-slide role="group" aria-roledescription="slide" aria-label="Tulisan 2 dari 2" aria-hidden="true" inert data-i18n-aria="writing.slideTwo">
+                <div class="writing-mark writing-mark--creature" aria-hidden="true">
+                  <svg viewBox="0 0 64 64" focusable="false">
+                    <path d="M10 51V24l9-13 13 14 13-14 9 13v27h-8V31L34 49h-4L18 31v20z" fill="currentColor" />
+                    <path d="m23 35 5 5m13-5-5 5M27 44c3 2 7 2 10 0" fill="none" stroke="#0a0a0a" stroke-linecap="round" stroke-width="2" />
+                  </svg>
+                </div>
+                <div class="writing-copy">
+                  <small data-i18n="writing.articleLabel">Artikel · Medium</small>
+                  <h3>What a Beautiful Creature: Tentang Luka yang Mengubah Cara Kita Bertahan</h3>
+                  <p class="writing-summary" data-i18n="writing.articleTwoSummary">
+                    Refleksi adegan serigala di <i>Fantastic Mr. Fox</i>, tentang luka yang membentuk cara kita melindungi diri dan bahwa bertahan tidak harus berarti menjadi keras selamanya.
+                  </p>
+                  <a class="writing-link" href="https://medium.com/@stevennn17/what-a-beautiful-creature-tentang-luka-yang-mengubah-cara-kita-bertahan-f926817e8b02" target="_blank" rel="noopener noreferrer" data-i18n="writing.read"
+                    >Baca artikel di Medium</a
+                  >
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="writing-controls">
+            <span class="writing-count" aria-live="polite" aria-atomic="true"><span data-writing-current>01</span><span class="writing-count-total"> / 02</span></span>
+            <div class="writing-navigation">
+              <div class="writing-pagination" role="group" aria-label="Pilih tulisan" data-i18n-aria="writing.paginationLabel">
+                <button class="writing-dot" type="button" data-writing-index="0" aria-label="Tampilkan tulisan 1" aria-current="true" data-i18n-aria="writing.slideOne"></button>
+                <button class="writing-dot" type="button" data-writing-index="1" aria-label="Tampilkan tulisan 2" data-i18n-aria="writing.slideTwo"></button>
+              </div>
+              <button class="writing-arrow" type="button" data-writing-prev aria-label="Tulisan sebelumnya" data-i18n-aria="writing.previous">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 5-7 7 7 7m-6-7h13" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" /></svg>
+              </button>
+              <button class="writing-arrow" type="button" data-writing-next aria-label="Tulisan berikutnya" data-i18n-aria="writing.next">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 5 7 7-7 7m6-7H3" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" /></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERTIFIKASI -->
+      <section class="certs" id="sertifikasi">
+        <div>
+          <h2 data-i18n="certs.title">Sertifikasi &amp; Keahlian</h2>
+          <div class="mosaic" id="mosaic"></div>
+        </div>
+        <div class="cert-details">
+          <div class="cert-group">
+            <h3 data-i18n="certs.certifications"><span>01</span> Sertifikasi</h3>
+            <ul class="list">
+              <li>
+                <a class="certificate-link" href="media/serti/sertifikat_course_615_4701053_110826230046.pdf" target="_blank" rel="noopener noreferrer"
+                  ><span>Belajar Data Science</span><span class="cert-meta">Dicoding <time>2026</time></span></a
+                >
+              </li>
+              <li>
+                <a class="certificate-link" href="media/serti/sertifikat_course_600_4701053_120826135114.pdf" target="_blank" rel="noopener noreferrer"
+                  ><span>Belajar Structured Query Language (SQL)</span><span class="cert-meta">Dicoding <time>2026</time></span></a
+                >
+              </li>
+              <li>
+                <a class="certificate-link" href="media/serti/Cert82012509806.pdf" target="_blank" rel="noopener noreferrer"
+                  ><span>Microsoft Azure AI Fundamentals</span><span class="cert-meta">Microsoft <time>2026</time></span></a
+                >
+              </li>
+              <li>
+                <a class="certificate-link" href="media/serti/sertifikat_course_905_4701053_020926193012.pdf" target="_blank" rel="noopener noreferrer"
+                  ><span>Introduction to Financial Literacy</span><span class="cert-meta">Dicoding <time>2026</time></span></a
+                >
+              </li>
+              <li>
+                <a class="certificate-link" href="media/serti/GL1595983436_certificate.pdf" target="_blank" rel="noopener noreferrer"
+                  ><span>HTML, CSS, and JavaScript</span><span class="cert-meta">GameLab <time>2025</time></span></a
+                >
+              </li>
+              <li>
+                <a class="certificate-link" href="media/serti/GL9450895371_certificate.pdf" target="_blank" rel="noopener noreferrer"
+                  ><span>PHP and MySQL</span><span class="cert-meta">GameLab <time>2025</time></span></a
+                >
+              </li>
+              <li>
+                <a class="certificate-link" href="media/serti/sertifikat%20Steven%20Andrian%20Pranata%20Wicaksono.pdf" target="_blank" rel="noopener noreferrer"
+                  ><span>English Proficiency Test</span><span class="cert-meta">UMBY <time>2026</time></span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="cert-group">
+            <h3 data-i18n="certs.skills"><span>02</span> Keahlian</h3>
+            <ul class="list">
+              <li class="skill-tools">
+                <span class="skill-type" data-i18n="certs.technical">Teknis</span>
+                <div class="skill-icon-grid">
+                  <span class="skill-icon" role="img" aria-label="HTML" title="HTML">
+                    <svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#e34f26" d="M8 4h32l-3 35-13 6-13-6z" /><path fill="#f06529" d="M24 8h12l-2.5 28-9.5 4z" /><path fill="#fff" d="m15 15 1 4h15l-.5 4H17l1.5 10 5.5 2 5.5-2 .5-5h-4l-.2 2-1.8.6-1.8-.6-.4-3h11l1.5-16z" /></svg>
+                  </span>
+                  <span class="skill-icon" role="img" aria-label="CSS" title="CSS">
+                    <svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#1572b6" d="M8 4h32l-3 35-13 6-13-6z" /><path fill="#33a9dc" d="M24 8h12l-2.5 28-9.5 4z" /><path fill="#fff" d="m15 15 1 4h16l-.5 4H17l.5 4h13l-.5 4-6 2-6-2-.3-3h-4l1 6 9.3 3 9.3-3 2-22z" /></svg>
+                  </span>
+                  <span class="skill-icon" role="img" aria-label="JavaScript" title="JavaScript">
+                    <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="4" y="4" width="40" height="40" rx="7" fill="#f7df1e" /><text x="24" y="33" fill="#111" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle">JS</text></svg>
+                  </span>
+                  <span class="skill-icon" role="img" aria-label="PHP" title="PHP">
+                    <svg viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="24" cy="24" rx="21" ry="14" fill="#777bb4" /><text x="24" y="29" fill="#fff" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle">PHP</text></svg>
+                  </span>
+                  <span class="skill-icon" role="img" aria-label="MySQL" title="MySQL">
+                    <svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#00758f" d="M9 13c0-4 7-7 15-7s15 3 15 7v22c0 4-7 7-15 7S9 39 9 35z" /><path fill="#00a4c7" d="M9 13c0 4 7 7 15 7s15-3 15-7-7-7-15-7-15 3-15 7m0 11c0 4 7 7 15 7s15-3 15-7m-30 11c0 4 7 7 15 7s15-3 15-7" /><path fill="none" stroke="#fff" stroke-width="2" d="M9 13c0 4 7 7 15 7s15-3 15-7M9 24c0 4 7 7 15 7s15-3 15-7M9 35c0 4 7 7 15 7s15-3 15-7" /></svg>
+                  </span>
+                  <span class="skill-icon" role="img" aria-label="Bootstrap" title="Bootstrap">
+                    <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="4" y="4" width="40" height="40" rx="9" fill="#7952b3" /><text x="24" y="35" fill="#fff" font-family="Arial,sans-serif" font-size="31" font-weight="700" text-anchor="middle">B</text></svg>
+                  </span>
+                  <span class="skill-icon" role="img" aria-label="Python" title="Python">
+                    <svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#3776ab" d="M23 4c-9 0-10 4-10 9v6h12v2H8c-5 0-7 4-7 10s3 9 8 9h5v-7c0-5 4-8 9-8h11c4 0 6-3 6-7V13c0-6-5-9-17-9m-5 7a2 2 0 1 1 0 4 2 2 0 0 1 0-4" /><path fill="#ffd43b" d="M25 44c9 0 10-4 10-9v-6H23v-2h17c5 0 7-4 7-10s-3-9-8-9h-5v7c0 5-4 8-9 8H14c-4 0-6 3-6 7v5c0 6 5 9 17 9m5-7a2 2 0 1 1 0-4 2 2 0 0 1 0 4" /></svg>
+                  </span>
+                  <span class="skill-icon" role="img" aria-label="Analisis data" title="Analisis data">
+                    <svg viewBox="0 0 48 48" aria-hidden="true"><path fill="none" stroke="#c6ff3d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M7 39h35M10 35V24h7v11m5 0V15h7v20m5 0V8h7v27" /><path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m10 19 10-7 9 3 10-9" /></svg>
+                  </span>
+                  <span class="skill-icon" role="img" aria-label="Word" title="Word">
+                    <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="13" y="5" width="30" height="38" rx="4" fill="#185abd" /><rect x="4" y="12" width="25" height="24" rx="3" fill="#2b7cd3" /><text x="16.5" y="30" fill="#fff" font-family="Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle">W</text></svg>
+                  </span>
+                  <span class="skill-icon" role="img" aria-label="Excel" title="Excel">
+                    <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="13" y="5" width="30" height="38" rx="4" fill="#107c41" /><path fill="#21a366" d="M4 12h25v24H4z" /><text x="16.5" y="30" fill="#fff" font-family="Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle">X</text></svg>
+                  </span>
+                  <span class="skill-icon" role="img" aria-label="PowerPoint" title="PowerPoint">
+                    <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="27" cy="24" r="18" fill="#ed6c47" /><path fill="#d35230" d="M4 12h24v24H4z" /><text x="16" y="30" fill="#fff" font-family="Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle">P</text></svg>
+                  </span>
+                </div>
+              </li>
+              <li><span class="skill-type" data-i18n="certs.soft">Non-teknis</span><span data-i18n="certs.teamSkills">Analitis, kerja tim, komunikasi, manajemen waktu</span></li>
+              <li><span class="skill-type" data-i18n="certs.soft"></span><span data-i18n="certs.problemSkills">Pemecahan masalah, adaptif, proaktif belajar</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- KONTAK -->
+      <section class="contact" id="kontak">
+        <div>
+          <div class="circ" data-i18n="contact.heading">kontak &amp; Media Sosial</div>
+          <div class="txt">
+            <b data-i18n="contact.invitation">Mari buat sesuatu yang berarti bersama.</b>
+            <span data-i18n="contact.description">Saya terbuka untuk posisi Full Stack Web Developer, proyek berbasis data, atau sekadar diskusi soal teknologi.</span>
+            <div class="contact-details">
+              <div class="contact-detail">
+                <span class="contact-detail-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z" />
+                    <circle cx="12" cy="10" r="2.5" />
+                  </svg>
+                </span>
+                <span>Condong Catur, Sleman, Yogyakarta</span>
+              </div>
+              <a class="contact-detail" href="mailto:steven.wicaksono17@gmail.com">
+                <span class="contact-detail-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <rect x="3" y="5" width="18" height="14" rx="2" />
+                    <path d="m4 7 8 6 8-6" />
+                  </svg>
+                </span>
+                <span>steven.wicaksono17@gmail.com</span>
+              </a>
+            </div>
+            <div class="contact-social-panel">
+              <div class="contact-social-heading">
+                <span data-i18n="contact.socialPrompt">Temukan saya di</span>
+                <span class="contact-social-count" aria-hidden="true">05</span>
+              </div>
+              <p class="contact-social-description" data-i18n="contact.socialDescription">Di sini saya berbagi proyek, tulisan, film favorit, dan hal-hal yang menginspirasi saya. Mari terhubung dan bertukar cerita.</p>
+              <div class="contact-social-topics" aria-hidden="true">
+                <span data-i18n="contact.socialProjects">PROYEK</span>
+                <span data-i18n="contact.socialWriting">TULISAN</span>
+                <span data-i18n="contact.socialFilms">FILM</span>
+              </div>
+              <div class="contact-socials" aria-label="Media sosial" data-i18n-aria="contact.socialsLabel">
+                <a class="contact-social-link" href="https://github.com/stevenwicaksono" target="_blank" rel="noopener noreferrer">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5M16 7l5 5-5 5m-2-12-4 14" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" /></svg>
+                  GitHub
+                </a>
+                <a class="contact-social-link" href="https://www.linkedin.com/in/steven-wicaksono-14a695296/" target="_blank" rel="noopener noreferrer">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9v9M6 6v.01M10 18v-5a3 3 0 0 1 6 0v5m0 0v-5a3 3 0 0 1 6 0v5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" /></svg>
+                  LinkedIn
+                </a>
+                <a class="contact-social-link" href="https://www.tiktok.com/@stvnandrian17?is_from_webapp=1&amp;sender_device=pc" target="_blank" rel="noopener noreferrer">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4v11.5a4 4 0 1 1-4-4M14 4c.5 3 2.5 5 5 5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" /></svg>
+                  TikTok
+                </a>
+                <a class="contact-social-link" href="https://www.instagram.com/stvnafterwhat/" target="_blank" rel="noopener noreferrer">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2" />
+                    <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2" />
+                    <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
+                  </svg>
+                  Instagram
+                </a>
+                <a class="contact-social-link" href="https://letterboxd.com/stvnafterwhat/" target="_blank" rel="noopener noreferrer">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2" />
+                    <path d="M3 10h18M3 14h18M8 5v5m8-5v5M8 14v5m8-5v5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" />
+                  </svg>
+                  Letterboxd
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="form" id="form" novalidate>
+          <input type="hidden" name="access_key" value="60e5daf2-7573-4467-b95e-082c8a2dfe65" />
+          <input type="hidden" name="subject" value="Pesan baru dari website" />
+          <input type="checkbox" name="botcheck" style="display: none" tabindex="-1" autocomplete="off" />
+
+          <h5 data-i18n="form.heading">ayo mulai ngobrol</h5>
+          <label for="name" data-i18n="form.name">NAMA</label><input id="name" name="Nama" /> <label for="em" data-i18n="form.email">EMAIL</label><input id="em" name="email" type="email" />
+          <label for="ms" data-i18n="form.message">PESAN</label><textarea id="ms" name="message" rows="4"></textarea>
+          <button type="submit" data-i18n="form.submit">Kirim pesan ↗</button>
+          <p id="result" role="alert" style="margin-top: 8px"></p>
+
+          <div class="success" id="success" aria-hidden="true">
+            <svg viewBox="0 0 60 60" width="96" height="96" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="30" cy="30" r="26" />
+              <path d="M18 31 l8 8 l16 -18" />
+            </svg>
+            <h5 id="success-title"></h5>
+            <p id="success-text"></p>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="f-top">
+        <div>
+          <h6 data-i18n="footer.question">Ada yang ingin dibahas?</h6>
+          <p data-i18n="footer.description">Saya siap membangun sesuatu yang bisa dipakai dan dipercaya.</p>
+          <a class="btn" href="mailto:steven.wicaksono17@gmail.com">Let's talk</a>
+        </div>
+        <div class="f-links">
+          <div>
+            <b data-i18n="footer.navigation">Navigasi</b><a href="#home">Home</a><a href="#tentang" data-i18n="nav.about">Tentang</a><a href="#layanan" data-i18n="footer.services">Layanan</a
+            ><a href="#proyek" data-i18n="nav.projects">Proyek</a>
+          </div>
+          <div>
+            <b data-i18n="footer.info">Info</b><a href="#sertifikasi" data-i18n="footer.certifications">Sertifikasi</a><a href="#tulisan" data-i18n="nav.writing">Tulisan</a><a href="#kontak" data-i18n="nav.contact">Kontak</a
+            ><a href="mailto:steven.wicaksono17@gmail.com">Email</a>
+          </div>
+          <div>
+            <b data-i18n="footer.location">Lokasi</b>
+            <div class="f-location">
+              <svg viewBox="0 0 48 64" aria-hidden="true">
+                <path d="m24 3 5 9h-3v8h6v5h5v4h-7v19h7l3 7H8l3-7h7V29h-7v-4h5v-5h6v-8h-3z" fill="currentColor" />
+                <path d="M16 56h16M20 33h8M20 24h8" fill="none" stroke="#0a0a0a" stroke-width="2" />
+              </svg>
+              <div><span>Yogyakarta</span><span>Indonesia</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="word">
+        <span>steven</span>
+        <span class="word-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64">
+            <circle cx="32" cy="32" r="29" fill="none" stroke="currentColor" stroke-dasharray="1.5 4" stroke-width=".8" opacity=".55" />
+            <path d="M32 3 55 16v32L32 61 9 48V16Z" fill="currentColor" />
+            <path d="m26 24-8 8 8 8m12-16 8 8-8 8m0-22-12 28" fill="none" stroke="#0a0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+            <g class="word-mark-orbit">
+              <circle cx="32" cy="3" r="2.2" fill="currentColor" />
+              <path d="m60 28 1.2 2.8L64 32l-2.8 1.2L60 36l-1.2-2.8L56 32l2.8-1.2z" fill="currentColor" />
+            </g>
+          </svg>
+        </span>
+        <span>wicaksono</span>
+        <span class="sticker s1">web</span>
+        <span class="sticker s2">data</span>
+        <span class="sticker s3">ml</span>
+      </div>
+    </footer>
+
+    <audio id="background-music" src="media/LANY_-_Stuck_(mp3.pm).mp3" preload="auto"></audio>
+    <button class="music-toggle" id="music-toggle" type="button" aria-pressed="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M9 18V5l12-2v13M9 18a3 3 0 1 1-3-3c1.7 0 3 1.3 3 3Zm12-2a3 3 0 1 1-3-3c1.7 0 3 1.3 3 3Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+      </svg>
+      <span id="music-label">Putar Stuck — LANY</span>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
